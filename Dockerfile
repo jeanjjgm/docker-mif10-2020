@@ -1,4 +1,4 @@
 FROM openjdk:11
 
-RUN apt-get update && apt-get -y install maven libgl-dev
+RUN apt-get update && apt-get -y install maven libgl-dev mariadb-client
 
